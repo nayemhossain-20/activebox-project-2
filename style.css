@@ -22,14 +22,16 @@ a{
 }
 .header{
     height: 100px;
-
+    position: fixed;
+    width: 100%;
 }
 .header .container{
     height: 100%;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255 ,0.3);
+   
 }
 .header-menu .menu{
     display: flex;
@@ -43,4 +45,47 @@ a{
 }
 .header-menu .menu li:last-child a{
     padding-right: 0;
+}
+
+/* ----------- Banner Section ------------  */
+.banner{
+    background-image: url(./Image/banner\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 254px;
+    padding-bottom: 160px;
+}
+.banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .container h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 68px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 60px;
+}
+.banner .container p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 42px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 0 110px;
+} 
+.banner .container a{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px 46px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E84545;
+    border-radius: 2px;
 }
