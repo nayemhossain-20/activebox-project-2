@@ -1,7 +1,46 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    height: 100px;
+
+}
+.header .container{
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu .menu{
+    display: flex;
+}
+.header-menu .menu li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.header-menu .menu li:last-child a{
+    padding-right: 0;
 }
