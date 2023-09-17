@@ -181,3 +181,35 @@ a{
 .image-item:hover .image_text-contant{
     visibility: visible;
 }
+
+/* ----------- Contact Section ----------  */
+.contact-section{
+    padding: 100px 0;
+}
+.contact-section .container{
+    display: flex;
+}
+.contact-section-div h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #2D3033;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.contact-section-div h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #E84545;
+    text-transform: uppercase;
+}
+.contact-section-div p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #2D3033;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 22px;   
+}
