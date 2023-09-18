@@ -288,15 +288,16 @@ a{
 
 .fotter-section{
     background-color: #3A3E64;
+ 
 }
 .fotter-section .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 110px;
 }
-.fotter-secton_div h3{
+/* .fotter-secton_div h3{
     font-size: 14px;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
@@ -307,11 +308,24 @@ a{
     font-size: 14px;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
+} */
+.fotterr{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    margin-bottom: 22px;
 }
-.para1{
-    padding-right: 110px;
+.fotter-secton_one p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
-
+.fotter-secton_three p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
 /* ------ Last section --------  */
 .last-section{
     width: 100%;
@@ -324,4 +338,12 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+.last-section_text{
+    padding: 0 590px;;
+}
+
+.parraa{
+    color: #FFF;
+    font-size: 15px;
 }
