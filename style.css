@@ -290,25 +290,24 @@ a{
     background-color: #3A3E64;
  
 }
-.fotter-section .container{
+.footer-part{
+    padding: 40px 20px;
+}
+.footer-part{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 60px;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 110px;
 }
-/* .fotter-secton_div h3{
-    font-size: 14px;
-    font-weight: 800;
-    font-family: 'Raleway', sans-serif;
-    color: #FFF;
-    margin-bottom: 22px;
+.fotter-secton_one{
+    width: 30%;
 }
-.fotter-secton_div p{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-} */
+.fotter-secton_two{
+    width: 30%;
+}
+.fotter-secton_three{
+    width: 30%;
+}
 .fotterr{
     font-size: 14px;
     font-weight: 800;
@@ -316,16 +315,14 @@ a{
     color: #FFF;
     margin-bottom: 22px;
 }
-.fotter-secton_one p{
+.fotterpara{
     font-size: 14px;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
+    color: #7C7E98;
 }
-.fotter-secton_three p{
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-}
+
+
 /* ------ Last section --------  */
 .last-section{
     width: 100%;
@@ -338,6 +335,7 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    color: #7C7E98;
 }
 .last-section_text{
     padding: 0 590px;;
