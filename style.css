@@ -190,6 +190,10 @@ a{
 }
 .contact-section .container{
     display: flex;
+    justify-content: space-between;
+}
+.contact-section-div{
+    max-width: calc(25% - 22.5px);
 }
 .contact-section-div h3{
     font-size: 22px;
@@ -216,42 +220,48 @@ a{
     padding-right: 22px;   
 }
 
-/* --------- other-section -------- */
+/* ---------- Testimonial Section ---------  */
 
-.blogs{
+.testimonial-section{
+    background-color: #53354A;
+}
+.testimonial-contant{
     display: flex;
 }
-.other-section_image{
-    width:50%;
-    /* height: 550px; */
-}
-.other-section_text{
+.tc-secton{
     width: 50%;
-    /* height: 550px; */
-    background-color: #53354A;
-    padding-left: 80px;
-    padding-top: 100px;
 }
-.other-section_text p{
+.testimonial-image img{
+    width: 100%;
+    height: 100%;
+}
+.testimonial-text{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.testimonial-text p:first-of-type{
     font-size: 36px;
-    font-weight: 400;
     font-family: 'Cardo', serif;
     font-style: italic;
     color: #FFF;
-    padding-right: 200px;
-    padding-bottom: 36px;
+    padding-right: 170px;
 }
-.other-section_text h5{
+.testimonial-text p:last-of-type{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     color: #FFF;
     font-family: 'Raleway', sans-serif;
+    padding-top: 28px;
 }
-.photos{
-    width: 100%;
-    box-sizing: border-box;
-    height: 100%;
+.indicator{
+    display: flex;
+}
+.indicator-item{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color:#E84545;
 }
 
 /* ----------- Download section----------  */
